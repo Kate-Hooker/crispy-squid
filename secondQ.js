@@ -7,13 +7,14 @@
 // R = end of list
 // n = number of numbers in the list
 // arr = array
-originalList = '6,7,8,9,10'
 
 // TODO
 // put the L to R list in to an array
 // create a filter function that takes in the array and returns the odd numbers
+originalList = '6,7,8,9,10'
+let str = originalList
 
-function stringToIntArray(originalList) {
+function stringToIntArray(str) {
   const strArray = str.split(',')
   const intArray = strArray.map((num) => parseInt(num))
   return intArray
@@ -22,6 +23,6 @@ function stringToIntArray(originalList) {
 //function isOdd(num) {
 //  return num % 2 !== 0
 //}
-stringToIntArray(originalList)
+const intArray = stringToIntArray(str)
 //const oddsOnly = intArray.filter(isOdd)
 console.log(intArray)
