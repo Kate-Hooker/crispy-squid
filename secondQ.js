@@ -19,9 +19,9 @@ function stringToIntArray(originalList) {
   return intArray
 }
 
-function isOdd(num) {
-  return num % 2 !== 0
-}
-
-const oddsOnly = intArray.filter(isOdd)
-console.log(oddsOnly)
+//function isOdd(num) {
+//  return num % 2 !== 0
+//}
+stringToIntArray(originalList)
+//const oddsOnly = intArray.filter(isOdd)
+console.log(intArray)
