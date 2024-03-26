@@ -20,9 +20,9 @@ function stringToIntArray(str) {
   return intArray
 }
 
-//function isOdd(num) {
-//  return num % 2 !== 0
-//}
+function isOdd(num) {
+  return num % 2 !== 0
+}
 const intArray = stringToIntArray(str)
-//const oddsOnly = intArray.filter(isOdd)
-console.log(intArray)
+const oddsOnly = intArray.filter(isOdd)
+console.log(oddsOnly)
